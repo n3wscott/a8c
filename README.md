@@ -1,2 +1,1 @@
-# a8c
-Arithmetic Generator. 
+# a8c - Arithmetic Generator. 
