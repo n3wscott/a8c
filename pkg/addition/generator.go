@@ -38,7 +38,7 @@ func randomInt(min, max int) int {
 //
 func (i impl) Generate(out io.Writer, min, max, count int) error {
 	padding := len(fmt.Sprintf("%d", max))
-	line := strings.Repeat("-", padding+5)
+	line := strings.Repeat("-", padding+4)
 	for i := 0; i < count; i++ {
 		a := randomInt(min, max)
 		b := randomInt(min, max)
